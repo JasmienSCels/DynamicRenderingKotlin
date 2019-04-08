@@ -1,4 +1,4 @@
-package com.example.dynamicrenderingkotlin.models
+package com.example.dynamicrenderingkotlin.models.Trivia
 
 data class Question(
         var category: String,

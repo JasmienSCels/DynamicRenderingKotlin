@@ -6,7 +6,9 @@ import dagger.android.DaggerApplication
 
 class DRKApplication :DaggerApplication() {
 
-    override fun applicationInjector(): AndroidInjector<out DaggerApplication> {
-        return DaggerApplicationComponent.builder().build()
+    override fun applicationInjector(): AndroidInjector<out DaggerApplication>? {
+
+        return  DaggerApplicationComponent.builder().build()
+
     }
 }
